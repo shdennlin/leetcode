@@ -1,0 +1,30 @@
+#+STARTUP: content
+#+OPTIONS: \n:t
+#+OPTIONS: toc:nil 
+
+#+EXPORT_FILE_NAME: leetcode001-two-sum
+
+#+TITLE:  LeetCode 001. Two Sum
+#+AUTHOR:	Shawn Dennis Lin
+#+EMAIL: ShawnDennisLin@gmail.com
+#+DATE:	[2021-09-12 Sun]
+
+* LeetCode 001. Two Sum
+
+Questions link: https://leetcode.com/problems/two-sum
+
+** Solution
+
+{% mdtabs title="Python" %}
+#+begin_src python
+class Solution:
+    def twoSum(self, nums: 'List[int]', target: int) -> 'List[int]':
+        for i in range(len(nums)):
+            for j in range(i+1, len(nums)):
+                t = nums[i] + nums[j]
+                if t == target:
+                    return [i, j]
+#+end_src
+{% endmdtabs %}
+
+My Solution Link: [[https://github.com/shdennlin/leetcode/blob/main/content/.solution_record/python3/001_Two_Sum.py][001 Two Sum.py]]

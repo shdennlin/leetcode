@@ -1,0 +1,62 @@
+{
+    "plugins": [
+        "-lunr", "-search", "search-pro",
+        "expandable-chapters",
+        "edit-link",
+        "copy-code-button",
+        "ga",
+        "mdtabs",
+        "github",
+        "sitemap",
+        "splitter",
+        "favicon",
+        "prism", "-highlight",
+        "hide-element",
+        "tbfed-pagefooter",
+        "anchor-navigation-ex",
+        "summary",
+        "livereload"
+    ],
+    "pluginsConfig": {
+        "fontSettings": {
+            "theme": "night",
+            "family": "sans"
+        },
+        "theme-default": {
+            "showLevel": false
+        },
+        "edit-link": {
+            "base": "https://github.com/shdennlin/leetcode/blob/main/",
+            "label": "Edit This Page"
+        },
+        "ga": {
+            "token": ""
+        },
+        "github": {
+            "url": "https://github.com/shdennlin/leetcode"
+        },
+        "sitemap": {
+            "hostname": "https://leetcode.shdennlin.com/"
+        },
+        "favicon":{
+            "shortcut": "assets/favicon.ico",
+            "bookmark": "assets/favicon.ico"
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-solarizedlight.css"
+            ]
+        },
+        "hide-element": {
+            "elements": [".gitbook-link", ".fa-twitter", ".fa-facebook", ".fa-share-alt"]
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright (c) 2021 shdennlin",
+            "modify_label": "Last modified by shdennlin ",
+            "modify_format": "YYYY-MM-DD HH:mm"
+        },
+        "anchor-navigation-ex": {
+            "multipleH1": false
+        }
+    }
+}

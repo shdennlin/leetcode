@@ -1,0 +1,45 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "My LeetCode record",
+  "homepage": "https://leetcode.shdennlin.com",
+  "keywords": [
+    "leetcode",
+    "python",
+    "python3"
+  ],
+  "author": "Shawn Dennis Lin <shawndennislin@gmail.com>",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shdennlin/leetcode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shdennlin/leetcode/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "gitbook-plugin-anchor-navigation-ex": "^1.0.14",
+    "gitbook-plugin-back-to-top-button": "^0.1.4",
+    "gitbook-plugin-copy-code-button": "^0.0.2",
+    "gitbook-plugin-edit-link": "^2.0.2",
+    "gitbook-plugin-expandable-chapters": "^0.2.0",
+    "gitbook-plugin-favicon": "^0.0.2",
+    "gitbook-plugin-ga": "^1.0.1",
+    "gitbook-plugin-git-author": "^1.1.2",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-hide-element": "^0.0.4",
+    "gitbook-plugin-intopic-toc": "^1.1.1",
+    "gitbook-plugin-mdtabs": "^1.0.0",
+    "gitbook-plugin-prism": "^2.4.0",
+    "gitbook-plugin-search-pro": "^2.0.2",
+    "gitbook-plugin-sitemap": "^1.2.0",
+    "gitbook-plugin-splitter": "^0.0.8",
+    "gitbook-plugin-tbfed-pagefooter": "^0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
