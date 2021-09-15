@@ -15,7 +15,8 @@
         "tbfed-pagefooter",
         "anchor-navigation-ex",
         "summary",
-        "livereload"
+        "livereload",
+        "insert-title"
     ],
     "pluginsConfig": {
         "fontSettings": {
@@ -57,6 +58,11 @@
         },
         "anchor-navigation-ex": {
             "multipleH1": false
+        },
+        "insert-title": {
+            "url": "/assets/favicon.ico",
+            "title": "Shdennlin's LeetCode Record",
+            "style": "background: none;"
         }
     }
 }
