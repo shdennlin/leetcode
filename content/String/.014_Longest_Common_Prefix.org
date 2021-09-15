@@ -1,0 +1,40 @@
+#+STARTUP: content
+#+OPTIONS: \n:t
+#+OPTIONS: toc:nil
+
+#+EXPORT_FILE_NAME:	014_Longest_Common_Prefix
+
+#+TITLE:	LeetCode 014. Longest Common Prefix
+#+AUTHOR:	Shawn Dennis Lin
+#+EMAIL:	ShawnDennisLin@gmail.com
+#+DATE:	[2021-09-15 Wed]
+
+* LeetCode 014. Longest Common Prefix
+
+Questions link:	https://leetcode.com/problems/longest-common-prefix/	
+
+** Solution
+
+{% mdtabs title="Python" %}
+#+begin_src python
+class Solution:
+    def longestCommonPrefix(self, strs: List[str]) -> str:
+        ret = strs[0]
+        if len(strs) == 1:
+            return ret
+
+        while True:
+            retC = True
+            for letter in strs[1:]:
+                if letter.startswith(ret):
+                    continue
+                else:
+                    ret = ret[:-1]
+                    retC = False
+                    break
+            if retC == True:
+                return ret
+#+end_src
+{% endmdtabs %}
+
+My Solution Link: [[https://github.com/shdennlin/leetcode/blob/main/content/.solution_record/python3/014_Longest_Common_Prefix.py][014 Longest Common Prefix.py]]
