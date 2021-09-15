@@ -1,11 +1,11 @@
 
 # LeetCode 013. Roman To Integer
 
-Questions link: <https://leetcode.com/problems/roman-to-integer/>  
+Question link: <https://leetcode.com/problems/roman-to-integer/>
 
 ## Solution
 
-{% mdtabs title="Python" %}  
+{% mdtabs title="Python" %}
 
 ```python
 class Solution:
@@ -29,6 +29,6 @@ class Solution:
         return num
 ```
 
-{% endmdtabs %}  
+{% endmdtabs %}
 
-My Solution Link: [013 Roman to Integer.py](https://github.com/shdennlin/leetcode/blob/main/content/.solution_record/python3/013_Roman_to_Integer.py)  
+My Solution Link: [013 Roman To Integer.py](https://github.com/shdennlin/leetcode/blob/main/content/.solution_record/python3/013_Roman_To_Integer.py)

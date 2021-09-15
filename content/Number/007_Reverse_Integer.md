@@ -1,7 +1,7 @@
 
-# LeetCode 007. Reverse Number
+# LeetCode 007. Reverse Integer
 
-Questions link: <https://leetcode.com/problems/reverse-integer/>  
+Question link: <https://leetcode.com/problems/reverse-integer/>  
 
 ## Solution
 

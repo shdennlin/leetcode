@@ -5,10 +5,10 @@
 ## Content
 
 - [Array]()
-    - [Leetcode001 Two Sum](content/Array/leetcode001-two-sum.md)
+    - [001 Two Sum](content/Array/001_Two_Sum.md)
 - [Number]()
-    - [Leetcode007 Reverse Number](content/Number/leetcode007-reverse-number.md)
+    - [007 Reverse Integer](content/Number/007_Reverse_Integer.md)
 - [String]()
+    - [009 Palindrome Number](content/String/009_Palindrome_Number.md)
+    - [013 Roman To Integer](content/String/013_Roman_To_Integer.md)
     - [014 Longest Common Prefix](content/String/014_Longest_Common_Prefix.md)
-    - [Leetcode009 Palindrome Number](content/String/leetcode009-palindrome-number.md)
-    - [Leetcode013 Roman To Integer](content/String/leetcode013-roman-to-integer.md)

@@ -1,17 +1,17 @@
 #+STARTUP: content
 #+OPTIONS: \n:t
-#+OPTIONS: toc:nil 
+#+OPTIONS: toc:nil
 
-#+EXPORT_FILE_NAME: leetcode001-two-sum
+#+EXPORT_FILE_NAME:	001_Two_Sum
 
-#+TITLE:  LeetCode 001. Two Sum
+#+TITLE:	LeetCode 001. Two Sum
 #+AUTHOR:	Shawn Dennis Lin
-#+EMAIL: ShawnDennisLin@gmail.com
+#+EMAIL:	ShawnDennisLin@gmail.com
 #+DATE:	[2021-09-12 Sun]
 
 * LeetCode 001. Two Sum
 
-Questions link: https://leetcode.com/problems/two-sum
+Question link: https://leetcode.com/problems/two-sum/
 
 ** Solution
 

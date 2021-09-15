@@ -1,7 +1,7 @@
 
 # LeetCode 001. Two Sum
 
-Questions link: <https://leetcode.com/problems/two-sum>  
+Question link: <https://leetcode.com/problems/two-sum/>  
 
 ## Solution
 

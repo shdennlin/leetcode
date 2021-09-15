@@ -1,17 +1,17 @@
 #+STARTUP: content
 #+OPTIONS: \n:t
-#+OPTIONS: toc:nil 
+#+OPTIONS: toc:nil
 
-#+EXPORT_FILE_NAME:	leetcode007-reverse-number
+#+EXPORT_FILE_NAME:	007_Reverse_Integer
 
-#+TITLE:	LeetCode 007. Reverse Number
+#+TITLE:	LeetCode 007. Reverse Integer
 #+AUTHOR:	Shawn Dennis Lin
 #+EMAIL:	ShawnDennisLin@gmail.com
 #+DATE:	[2021-09-13 Mon]
 
-* LeetCode 007. Reverse Number
+* LeetCode 007. Reverse Integer
 
-Questions link: https://leetcode.com/problems/reverse-integer/
+Question link: https://leetcode.com/problems/reverse-integer/
 
 ** Solution
 

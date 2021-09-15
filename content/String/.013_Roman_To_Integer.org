@@ -1,8 +1,8 @@
 #+STARTUP: content
-#+OPTIONS: \n:t
+#+OPTIONS: \\n:t
 #+OPTIONS: toc:nil
 
-#+EXPORT_FILE_NAME:	leetcode013-roman-to-integer
+#+EXPORT_FILE_NAME:	013_Roman_To_Integer
 
 #+TITLE:	LeetCode 013. Roman To Integer
 #+AUTHOR:	Shawn Dennis Lin
@@ -11,7 +11,7 @@
 
 * LeetCode 013. Roman To Integer
 
-Questions link: https://leetcode.com/problems/roman-to-integer/
+Question link: https://leetcode.com/problems/roman-to-integer/
 
 ** Solution
 
@@ -39,4 +39,4 @@ class Solution:
 #+end_src
 {% endmdtabs %}
 
-My Solution Link: [[https://github.com/shdennlin/leetcode/blob/main/content/.solution_record/python3/013_Roman_to_Integer.py][013 Roman to Integer.py]]
+My Solution Link: [[https://github.com/shdennlin/leetcode/blob/main/content/.solution_record/python3/013_Roman_To_Integer.py][013 Roman To Integer.py]]
