@@ -12,3 +12,4 @@
     - [009 Palindrome Number](content/String/009_Palindrome_Number.md)
     - [013 Roman To Integer](content/String/013_Roman_To_Integer.md)
     - [014 Longest Common Prefix](content/String/014_Longest_Common_Prefix.md)
+    - [020 Valid Parentheses](content/String/020_Valid_Parentheses.md)

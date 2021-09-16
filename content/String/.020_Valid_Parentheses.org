@@ -1,0 +1,38 @@
+#+STARTUP: content
+#+OPTIONS: \n:t
+#+OPTIONS: toc:nil
+
+#+EXPORT_FILE_NAME:	020_Valid_Parentheses
+
+#+TITLE:	LeetCode 020. Valid Parentheses
+#+AUTHOR:	Shawn Dennis Lin
+#+EMAIL:	ShawnDennisLin@gmail.com
+#+DATE:	[2021-09-16 Thu]
+
+* LeetCode 020. Valid Parentheses
+
+Question link: https://leetcode.com/problems/valid-parentheses/
+
+** Solution
+
+{% mdtabs title="Python" %}
+#+begin_src python
+class Solution:
+    def isValid(self, s: str) -> bool:
+        m = {'(': ')', '[': ']', '{': '}'}
+        stack = []
+
+        for i in s:
+            if i in m:
+                stack.append(m[i])
+            elif len(stack) > 0 and i == stack[-1]:
+                stack.pop()
+            else:
+                return False
+        return len(stack) == 0
+#+end_src
+{% endmdtabs %}
+
+Ref: [[https://leetcode.com/problems/valid-parentheses/discuss/1344275/Simple-python-solution-(4ms-135mb-memory-usage)][Simple python solution (4ms, 13,5mb memory usage)]]
+
+My Solution Link: [[https://github.com/shdennlin/leetcode/blob/main/content/.solution_record/python3/020_Valid_Parentheses.py][020 Valid Parentheses.py]]
