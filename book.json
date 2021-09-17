@@ -31,7 +31,11 @@
             "label": "Edit This Page"
         },
         "ga": {
-            "token": ""
+            "token": "G-BH7ZDHLCCQ",
+            "configuration": {
+                "cookieName": "shdennlin-leetcode",
+                "cookieDomain": "leetcode.shdennlin.com"
+            }
         },
         "github": {
             "url": "https://github.com/shdennlin/leetcode"
